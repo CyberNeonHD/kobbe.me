@@ -1,24 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Welcome to nginx!</title>
-    <style>
-    html { color-scheme: light dark; }
-    body { width: 35em; margin: 0 auto;
-    font-family: Tahoma, Verdana, Arial, sans-serif; }
-    </style>
-    <!-- TEST PAGE to see if github pages works-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kobbe - portfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="./assests/CSS/style.css">
+
+    <script src="/assests/JS/script.js"></script>
 </head>
 <body>
-    <h1>Welcome to nginx!</h1>
-    <p>If you see this page, the nginx web server is successfully installed and
-    working. Further configuration is required.</p>
+    
+<!-- header section starts  -->
 
-    <p>For online documentation and support please refer to
-    <a href="http://nginx.org/">nginx.org</a>.<br/>
-    Commercial support is available at
-    <a href="http://nginx.com/">nginx.com</a>.</p>
+<header>
 
-    <p><em>Thank you for using nginx.</em></p>
+    <div class="user">
+        <img src="img/pfp.jpg" alt="">
+        <h3 class="name">Kobbe</h3>
+        <p class="current-pos">Student - Computer Science</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#project">project</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>Hello there</h3>
+    <h1>I'm <span>Kobbe Vereecken</span></h1>
+    <p>Student in Computer Science
+    </p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> Kobbe Vereecken </h3>
+        <h3> <span> age : </span> 21 </h3>
+        <h3> <span> Study : </span> Bachelor Applied Computer Science</h3>
+        <h3> <span> currently : </span> First year college student </h3>
+        <h3> <span> interests : </span> Computers, Cyber Security, programming </h3>
+        <h3> <span> languages : </span> Dutch, English </h3>
+        <a href="/files/CV -Kobbe Vereecken.pdf" download="Kobbe Vereecken.pdf"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+    </div>
+
+    <div class="counter">
+
+        <div class="box">
+            <span>3+</span>
+            <h3>Years of studying and retrieving experience in IT</h3>
+        </div>
+
+        <div class="box">
+            <span>Multiple</span>
+            <h3>College & High School projects completed</h3>
+        </div>
+        <div class="box">
+            <span>Learned</span>
+            <h3>C#, Javascript, Java, Python, SQL, HTML and CSS</h3>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020-2021</span>
+        <h3>Graduated High School</h3>
+        <p>At SMI, I received a diploma in Network and IT. 
+            I learned about fundamental IT knowledge on a global scale, as well as network administration on Windows and Linux.
+            Created a C# Winform application about particulate matters. Basic PHP, C#, JavaScript, and SQL expertise was acquired. 
+        </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021-2022</span>
+        <h3>1st year at HOWEST</h3>
+        <p>I established the groundwork for a solid IT foundation throughout my first year.
+            I discovered the fundamentals of five pillars: IT Infrastructure, Information Management, Software Development, Web & Mobile, and IT Management.
+            Beginning in the second year, you will be able to select one of four specialized routes. I'm going to go with cyber security.
+        </p>
+    </div>
+    
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- project section starts  -->
+
+<section class="project" id="project">
+
+<h1 class="heading"> My <span>Projects</span> (<span>clickable soon</span>)</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="img/project-hackathon.png" alt="Ypto NMBS Microsoft Hackathon" title="Ypto NMBS Microsoft Hackathon">
+    </div>
+    <div class="box">
+        <img src="img/project-spotify.png" alt="Ypto NMBS Microsoft Hackathon" title="Ypto NMBS Microsoft Hackathon">
+    </div>
+</div>
+
+</section>
+
+<!-- project section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> Kobbe.vereecken@hotmail.com</h3>
+            <h3> <i class="fas fa-phone"></i> +32488323250</h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> West Flanders, Belgium.</h3>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="835" height="575" id="gmap_canvas" src="https://maps.google.com/maps?q=rijselstraat%203A,%20Brugge&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://putlocker-is.org">putlocker</a><br>
+            <style>.mapouter{position:relative;text-align:right;height:575px;width:835px;}</style>
+            <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+            <style>.gmap_canvas {overflow:hidden;background:none!important;height:575px;width:835px;}</style>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="img/scroll-top-img.png" alt="">
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
