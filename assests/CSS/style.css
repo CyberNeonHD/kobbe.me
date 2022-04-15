@@ -375,8 +375,12 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-
-
+.gmap_canvas {
+    padding:1.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -404,6 +408,11 @@ header .navbar ul li a:hover{
     .home{
         padding:1rem 4rem;
     }
+    .gmap_canvas {
+        display: flex;
+        justify-content: center;
+        max-width: 75rem;
+    }
 
 }
 
@@ -425,6 +434,9 @@ header .navbar ul li a:hover{
        padding:0;
    }
 
+   .gmap_canvas {
+    max-width: 60rem;
+    }
 }
 
 @media (max-width:768px){
@@ -432,7 +444,9 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
- 
+    .gmap_canvas {
+        max-width: 55rem;
+    }
  }
 
 @media (max-width:400px){
@@ -459,6 +473,11 @@ header .navbar ul li a:hover{
 
     .contact .row form{
         margin:3rem 0;
+    }
+    .gmap_canvas {
+        display: flex;
+        justify-content: center;
+        max-width: 30rem;
     }
 
  }
